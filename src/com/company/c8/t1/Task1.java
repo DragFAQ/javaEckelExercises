@@ -8,12 +8,12 @@ import static net.mindview.util.Print.print;
 public class Task1 {
     public static void main(String[] args) {
         Task1 t1 = new Task1();
-        t1.some(new Unicycle());
-        t1.some(new Bicycle());
-        t1.some(new Tricycle());
+        t1.ride(new Unicycle());
+        t1.ride(new Bicycle());
+        t1.ride(new Tricycle());
     }
 
-    private void some(Cycle c) {
+    private void ride(Cycle c) {
         print("123");
     }
 }
